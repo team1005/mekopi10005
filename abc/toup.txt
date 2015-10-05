@@ -1,0 +1,9 @@
+#INCLUDE <STDIO.H>
+
+INT MAIN (){
+	INT C;
+	WHILE((C = GETCHAR()) != EOF){
+		PUTCHAR(C-1);
+	}
+	RETURN 0;
+}
